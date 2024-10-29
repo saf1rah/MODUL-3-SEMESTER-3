@@ -1,16 +1,14 @@
-package TUGAS3; //setelah refactor
+package TUGAS4; //setelah di reafctor
 
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Scanner;
 
-public class hitungUsia3 {
+public class hitungUsia2 {
 
-    //autocomplete psvm
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
-            //autocomplete psvm
             System.out.print("Masukkan tanggal lahir (1-31): ");
             int hariLahir = scanner.nextInt();
 
@@ -49,6 +47,4 @@ public class hitungUsia3 {
             return tanggalLahir;
         }
     }
-
-
 
